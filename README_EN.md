@@ -20,7 +20,7 @@ With this tool, you can use vxtwitter.com, fixupx.com, etc. to get a nice Twitte
 
 ### 1. Download
 
-[Click here or download the latest version from Releases](https://github.com/Chipsnet/nothanx/archive/refs/tags/1.0.0.zip)
+[Click here or download the latest version from Releases](https://github.com/Chipsnet/nothanx/archive/refs/tags/1.0.1.zip)
 
 ### 2. Unzip
 
