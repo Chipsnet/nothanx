@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "nothanx",
+    "description": "Replace share link to fix twitter embed link",
+    "version": "1.0",
+    "permissions": ["storage"],
+    "content_scripts": [
+      {
+        "matches": ["*://*.twitter.com/*", "*://*.x.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "./icon/icon16.png",
+        "48": "./icon/icon48.png",
+        "128": "./icon/icon128.png"
+    }
+  }
+  
