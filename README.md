@@ -20,7 +20,7 @@ Discordなどに貼り付けたときに、カードに表示されず悲しい�
 
 ### 1. ダウンロード
 
-[ここをクリックするか、Releasesから最新バージョンをダウンロードしてください]()
+[ここをクリックするか、Releasesから最新バージョンをダウンロードしてください](https://github.com/Chipsnet/nothanx/archive/refs/tags/1.0.0.zip)
 
 ### 2. 解凍する
 
