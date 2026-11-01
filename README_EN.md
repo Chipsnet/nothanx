@@ -59,6 +59,26 @@ Currently supported are
 
 Copying a link on Twitter will replace x.com or twitter.com with an embedded provider such as vxtwitter.com.
 
+### Query parameter removal
+
+Removes all query parameters (tracking tags such as `?s=46&t=...`) from the link when copying.     
+You can toggle it with the checkbox in the popup (enabled by default).
+
+### Translation language
+
+Appends a language to the end of the tweet URL so that the embed is translated into that language (e.g. `https://fxtwitter.com/user/status/123/ja`).     
+The default is "None".
+
+| Language | Value | vxtwitter.com | fxtwitter.com / fixupx.com |
+| --- | --- | --- | --- |
+| English | `en` | ✅ | ✅ |
+| Japanese | `ja` | ✅ | ✅ |
+| Korean | `kr` | - | ✅ |
+| Chinese | `cn` | - | ✅ |
+
+> [!NOTE]       
+> Korean and Chinese could not be verified on vxtwitter.com, so only English and Japanese are available there.
+
 ## Donate
 
 You can support development in the following ways      

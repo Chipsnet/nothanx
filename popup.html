@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <script src="./config.js"></script>
         <script src="./popup.js"></script>
     </head>
 
@@ -14,6 +15,20 @@
             <option value="fxtwitter.com">fxtwitter.com</option>
             <option value="fixupx.com">fixupx.com</option>
         </select>
+        <p>Translate to</p>
+        <select name="lang" id="langSelect">
+            <option value="">None</option>
+            <option value="en">English (en)</option>
+            <option value="ja">日本語 (ja)</option>
+            <option value="kr">한국어 (kr)</option>
+            <option value="cn">中文 (cn)</option>
+        </select>
+        <p>
+            <label>
+                <input type="checkbox" id="removeQueryParamsCheckbox" />
+                Remove query parameters (tracking tags)
+            </label>
+        </p>
         <p>reload required to apply changes</p>
         <p>NothanX by <a href="https://twitter.com/minatoo86" target="_blank">Minato Minami</a></p>
     </body>
