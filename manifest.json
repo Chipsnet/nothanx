@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "nothanx",
     "description": "Replace share link to fix twitter embed link",
-    "version": "1.1",
+    "version": "1.1.0",
     "permissions": ["storage"],
     "content_scripts": [
       {
